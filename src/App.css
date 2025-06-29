@@ -31,7 +31,7 @@ main{
     padding: 15px;
     border: 0px;
     border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.801) 0px 2px 8px 0px;
 }
 
 .counter textarea:focus {
@@ -58,7 +58,7 @@ main{
 }
 
 .counter button:disabled {
-    background-color: #858585;
+    background-color: #03740d;
     cursor: not-allowed;
 }
 
