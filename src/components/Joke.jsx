@@ -15,7 +15,7 @@ export const Joke = () => {
     return (
         <section className="joke">
             <p>
-                <span data-testid="jokeHeadline">{joke}</span>
+                <span className="jokeHeadline">{joke}</span>
                 <span> - api.chucknorris.io</span>
             </p>
         </section>

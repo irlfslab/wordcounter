@@ -19,12 +19,12 @@ export const Counter = () => {
 
   return (
     <section className="counter">
-        <textarea onChange={handleCount} ref={textRef} data-testid="textArea" placeholder="Type or paste your text"></textarea>
+        <textarea onChange={handleCount} ref={textRef} className="textArea" placeholder="Type or paste your text"></textarea>
         <button onClick={handleButton} data-testid="clearBtn" disabled={charLength ? "" : "disabled"}>Clear</button>
 
         <p className="result">
-          <span data-testid="charLength">Character: {charLength}</span>
-          <span data-testid="wordLength">Word: {wordLength}</span>
+          <span>Character: {charLength}</span>
+          <span>Word: {wordLength}</span>
         </p>
     </section>
   )
