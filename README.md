@@ -44,9 +44,9 @@ _(Replace `#` with your live demo link when available)_
 
 ## Usage
 
-- **Home Page:** User input text and counts number of word and charaters.
+- **Home Page:** User input text and counts number of word and characters.
 - **Joke Page:** The joke is diaplayed once the api is refreshed.
-- **Not found Page:** This will show error 404, no related page is found.
+- **Not found Page:** This will show error web page not found when the url is not for home page word counter or joke page.
 
 
 ## Technologies Used
